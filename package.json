@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@leandrowkz/tmdb": "^1.9.0",
+    "@leandrowkz/tmdb": "^1.12.1",
     "classnames": "^2.3.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -48,6 +48,10 @@
     "eject": "react-scripts eject",
     "prepare": "husky install"
   },
+  
+    "engines": {
+      "node": ">=19.0.0"
+    },
   "browserslist": {
     "production": [
       ">0.2%",
